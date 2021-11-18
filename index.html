@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/app.css">
     <title>Document</title>
-    <script src="./static/js/app.js"></script>
 </head>
 <body>
-    
+    <section id="characters">
+    </section>
+
+    <template id="character-card">
+      <div class="character">
+        <picture class="character__img" >
+          <img src="" alt="" width="150px" height="150"/>
+        </picture>
+        <div class="description">
+          <h2 class="character__name"></h2>
+          <p class="character__specie">Specie: <span></span></p>
+          <p class="character__gender">Gender: <span></span></p>
+        </div>
+      </div>
+    </template>
+    <script src="./static/js/app.js"></script>
+
 </body>
 </html>
